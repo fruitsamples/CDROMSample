@@ -3,90 +3,77 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFB2A62408B3E48700F5C4D2 /* CDROMSample.c in Sources */ = {isa = PBXBuildFile; fileRef = BFB2A62308B3E48700F5C4D2 /* CDROMSample.c */; };
-		BFB2A63008B3E51500F5C4D2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB2A62E08B3E51500F5C4D2 /* CoreFoundation.framework */; };
-		BFB2A63108B3E51500F5C4D2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB2A62F08B3E51500F5C4D2 /* IOKit.framework */; };
+		8482F08B1366377E007DB389 /* CDROMSample.c in Sources */ = {isa = PBXBuildFile; fileRef = 8482F08A1366377E007DB389 /* CDROMSample.c */; };
+		8482F09F1366383E007DB389 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8482F09E1366383E007DB389 /* CoreFoundation.framework */; };
+		8482F0A113663857007DB389 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8482F0A013663857007DB389 /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		014CEA520018CE5811CA2923 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				ZERO_LINK = YES;
-			};
-			name = Debug;
+/* Begin PBXCopyFilesBuildPhase section */
+		8482F0841366377E007DB389 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
-		014CEA530018CE5811CA2923 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-/* End PBXBuildStyle section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8DD76FB20486AB0100D96B5E /* CDROMSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CDROMSample; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB2A62308B3E48700F5C4D2 /* CDROMSample.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CDROMSample.c; sourceTree = "<group>"; };
-		BFB2A62E08B3E51500F5C4D2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
-		BFB2A62F08B3E51500F5C4D2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		8482F0861366377E007DB389 /* CDROMSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CDROMSample; sourceTree = BUILT_PRODUCTS_DIR; };
+		8482F08A1366377E007DB389 /* CDROMSample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CDROMSample.c; sourceTree = "<group>"; };
+		8482F09E1366383E007DB389 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8482F0A013663857007DB389 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+		8482F0831366377E007DB389 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB2A63008B3E51500F5C4D2 /* CoreFoundation.framework in Frameworks */,
-				BFB2A63108B3E51500F5C4D2 /* IOKit.framework in Frameworks */,
+				8482F09F1366383E007DB389 /* CoreFoundation.framework in Frameworks */,
+				8482F0A113663857007DB389 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08FB7794FE84155DC02AAC07 /* CDROMSample */ = {
+		8482F07B1366377E007DB389 = {
 			isa = PBXGroup;
 			children = (
-				08FB7795FE84155DC02AAC07 /* Source */,
-				BFB2A62D08B3E4F600F5C4D2 /* Frameworks */,
-				1AB674ADFE9D54B511CA2CBB /* Products */,
+				8482F0891366377E007DB389 /* CDROMSample */,
+				8482F0A21366386F007DB389 /* Frameworks */,
+				8482F0871366377E007DB389 /* Products */,
 			);
-			name = CDROMSample;
 			sourceTree = "<group>";
 		};
-		08FB7795FE84155DC02AAC07 /* Source */ = {
+		8482F0871366377E007DB389 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFB2A62308B3E48700F5C4D2 /* CDROMSample.c */,
-			);
-			name = Source;
-			sourceTree = "<group>";
-		};
-		1AB674ADFE9D54B511CA2CBB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8DD76FB20486AB0100D96B5E /* CDROMSample */,
+				8482F0861366377E007DB389 /* CDROMSample */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFB2A62D08B3E4F600F5C4D2 /* Frameworks */ = {
+		8482F0891366377E007DB389 /* CDROMSample */ = {
 			isa = PBXGroup;
 			children = (
-				BFB2A62E08B3E51500F5C4D2 /* CoreFoundation.framework */,
-				BFB2A62F08B3E51500F5C4D2 /* IOKit.framework */,
+				8482F08A1366377E007DB389 /* CDROMSample.c */,
+			);
+			path = CDROMSample;
+			sourceTree = "<group>";
+		};
+		8482F0A21366386F007DB389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8482F09E1366383E007DB389 /* CoreFoundation.framework */,
+				8482F0A013663857007DB389 /* IOKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,179 +81,133 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DD76FA90486AB0100D96B5E /* CDROMSample */ = {
+		8482F0851366377E007DB389 /* CDROMSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFB2A61508B3E45E00F5C4D2 /* Build configuration list for PBXNativeTarget "CDROMSample" */;
+			buildConfigurationList = 8482F08F1366377E007DB389 /* Build configuration list for PBXNativeTarget "CDROMSample" */;
 			buildPhases = (
-				8DD76FAB0486AB0100D96B5E /* Sources */,
-				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8482F0821366377E007DB389 /* Sources */,
+				8482F0831366377E007DB389 /* Frameworks */,
+				8482F0841366377E007DB389 /* CopyFiles */,
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INSTALL_PATH = "$(HOME)/bin";
-				PREBINDING = NO;
-				PRODUCT_NAME = CDROMSample;
-			};
 			dependencies = (
 			);
 			name = CDROMSample;
-			productInstallPath = "$(HOME)/bin";
 			productName = CDROMSample;
-			productReference = 8DD76FB20486AB0100D96B5E /* CDROMSample */;
+			productReference = 8482F0861366377E007DB389 /* CDROMSample */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		08FB7793FE84155DC02AAC07 /* Project object */ = {
+		8482F07D1366377E007DB389 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = BFB2A61908B3E45E00F5C4D2 /* Build configuration list for PBXProject "CDROMSample" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				014CEA520018CE5811CA2923 /* Debug */,
-				014CEA530018CE5811CA2923 /* Release */,
+			buildConfigurationList = 8482F0801366377E007DB389 /* Build configuration list for PBXProject "CDROMSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
 			);
-			hasScannedForEncodings = 1;
-			mainGroup = 08FB7794FE84155DC02AAC07 /* CDROMSample */;
+			mainGroup = 8482F07B1366377E007DB389;
+			productRefGroup = 8482F0871366377E007DB389 /* Products */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
-				8DD76FA90486AB0100D96B5E /* CDROMSample */,
+				8482F0851366377E007DB389 /* CDROMSample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+		8482F0821366377E007DB389 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB2A62408B3E48700F5C4D2 /* CDROMSample.c in Sources */,
+				8482F08B1366377E007DB389 /* CDROMSample.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BFB2A61608B3E45E00F5C4D2 /* Debug */ = {
+		8482F08D1366377E007DB389 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8482F08E1366377E007DB389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8482F0901366377E007DB389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INSTALL_PATH = "$(HOME)/bin";
-				PREBINDING = NO;
-				PRODUCT_NAME = CDROMSample;
-				ZERO_LINK = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		BFB2A61708B3E45E00F5C4D2 /* Release */ = {
+		8482F0911366377E007DB389 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INSTALL_PATH = "$(HOME)/bin";
-				PREBINDING = NO;
-				PRODUCT_NAME = CDROMSample;
-				ZERO_LINK = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
-		};
-		BFB2A61808B3E45E00F5C4D2 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INSTALL_PATH = "$(HOME)/bin";
-				PREBINDING = NO;
-				PRODUCT_NAME = CDROMSample;
-				ZERO_LINK = NO;
-			};
-			name = Default;
-		};
-		BFB2A61A08B3E45E00F5C4D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
-				WARNING_CFLAGS = "-Wall";
-				ZERO_LINK = NO;
-			};
-			name = Debug;
-		};
-		BFB2A61B08B3E45E00F5C4D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
-				WARNING_CFLAGS = "";
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		BFB2A61C08B3E45E00F5C4D2 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
-				WARNING_CFLAGS = "";
-				ZERO_LINK = NO;
-			};
-			name = Default;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFB2A61508B3E45E00F5C4D2 /* Build configuration list for PBXNativeTarget "CDROMSample" */ = {
+		8482F0801366377E007DB389 /* Build configuration list for PBXProject "CDROMSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB2A61608B3E45E00F5C4D2 /* Debug */,
-				BFB2A61708B3E45E00F5C4D2 /* Release */,
-				BFB2A61808B3E45E00F5C4D2 /* Default */,
+				8482F08D1366377E007DB389 /* Debug */,
+				8482F08E1366377E007DB389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
-		BFB2A61908B3E45E00F5C4D2 /* Build configuration list for PBXProject "CDROMSample" */ = {
+		8482F08F1366377E007DB389 /* Build configuration list for PBXNativeTarget "CDROMSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB2A61A08B3E45E00F5C4D2 /* Debug */,
-				BFB2A61B08B3E45E00F5C4D2 /* Release */,
-				BFB2A61C08B3E45E00F5C4D2 /* Default */,
+				8482F0901366377E007DB389 /* Debug */,
+				8482F0911366377E007DB389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+	rootObject = 8482F07D1366377E007DB389 /* Project object */;
 }
